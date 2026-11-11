@@ -15,7 +15,7 @@ Lainnya    : sejarah-indonesia · english-grammar · mengelola-uang · literasi-
 
 | Tanggal | Mata pelajaran | Materi | id buku | Sumber | Status di situs |
 |---|---|---|---|---|---|
-| 2026-11-12 | Matematika (Kelas VII–VIII) | Segi Empat dan Segitiga Itu Asyik! (18 hlm, 16 bab: pengenalan; persegi; persegi panjang; jajargenjang; belah ketupat; layang-layang; trapesium; jenis segitiga; keliling; luas segitiga; bangun gabungan; satuan; jebakan; ringkasan; latihan; peta) | segi-empat-segitiga | modul-sumber/segi-empat-segitiga.md | belum diunggah ke learv.online; sumber tersimpan di GitHub dan PDF dikirim ke pengguna |
+| 2026-11-12 | Matematika (Kelas VII–VIII) | Segi Empat dan Segitiga Itu Asyik! (18 hlm, 16 bab: pengenalan; persegi; persegi panjang; jajargenjang; belah ketupat; layang-layang; trapesium; jenis segitiga; keliling; luas segitiga; bangun gabungan; satuan; jebakan; ringkasan; latihan; peta) | segi-empat-segitiga | modul-segi-empat-segitiga/modul-sumber.md (+ build.py, page.html, render.py) | sumber dan kode tersimpan di GitHub; PDF dikirim ke pengguna |
 
 ## Sudah tercakup buku Aljabar — jangan dibuat ulang
 Bentuk aljabar dan operasinya, sifat operasi, pangkat dan bentuk akar, pecahan aljabar,
