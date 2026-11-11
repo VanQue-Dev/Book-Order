@@ -3,7 +3,7 @@
 - **ID buku:** `segi-empat-segitiga`
 - **Jumlah halaman:** 18 (sampul + cara pakai/daftar isi + 16 bab)
 - **Mata pelajaran:** Matematika, kelas VII–VIII
-- **Fokus:** jenis bangun segi empat dan segitiga, keliling, luas, bangun gabungan, serta satuan. Pembahasan jumlah dan jenis sudut tidak diulang karena sudah tercakup pada modul Garis dan Sudut.
+- **Fokus:** jenis bangun segi empat dan segitiga, keliling, luas, bangun gabungan, serta satuan. Pembahasan sudut tidak diulang karena sudah tercakup pada modul Garis dan Sudut.
 
 ## Cara render ulang
 
@@ -30,11 +30,10 @@ Simpan ketiga berkas kode berikut dalam satu folder. Siapkan Python dengan Playw
 
 ## Catatan teknis
 
-- Palet warna mengikuti SPEC: navy `#1b2559`, biru `#3b6ef5`, oranye `#ff8a3d`, hijau `#16a37b`, kuning `#ffc93c`, ungu `#7b5cf0`, merah `#ef4b5a`.
-- Ilustrasi dibuat sebagai SVG inline orisinal. Ilustrasi bab memakai `viewBox="0 0 300 170"`; peta belajar memakai `viewBox="0 0 600 250"`; maskot sampul memakai `viewBox="0 0 520 300"`. Tidak ada ID SVG yang digunakan ulang; sprite ikon kotak memakai enam ID unik (`ic-bay`, `ic-kon`, `ic-con`, `ic-ing`, `ic-awas`, `ic-coba`).
-- Setiap bab materi biasa berisi enam kotak warna, satu ilustrasi, satu rumus, empat langkah contoh dan baris cek, tabel/contoh tambahan, dua soal Coba Sendiri, serta paragraf pendalaman. Pemeriksaan `cek_kepadatan.py`: 12 bab materi masing-masing 2.300–2.900 karakter; semua berstatus OK.
-- QA: PDF 18 halaman; tidak ada halaman bab yang meluber; thumbnail semua halaman dilihat pada dua lembar QA; ilustrasi juga diperiksa dalam satu galeri SVG dan halaman padat diperiksa pada 100 dpi. Mesin render: Chrome/Playwright.
-- Angka pada ilustrasi diperiksa terhadap contoh: persegi 4 cm; persegi panjang 10 m × 4 m; jajargenjang alas 8 cm dan tinggi 3 cm; belah ketupat diagonal 8 cm dan 6 cm; layang-layang diagonal 16 cm dan 10 cm; trapesium alas sejajar 8 cm dan 14 cm serta tinggi 5 cm; segitiga sisi 6–8–10 dan alas/tinggi 10 cm/6 cm; bangun gabungan 60 m² + 20 m².
+- Palet warna: navy `#1b2559`, biru `#3b6ef5`, oranye `#ff8a3d`, hijau `#16a37b`, kuning `#ffc93c`, ungu `#7b5cf0`, merah `#ef4b5a`.
+- Ilustrasi dibuat sebagai SVG inline orisinal. Ilustrasi bab memakai `viewBox="0 0 300 170"`; peta belajar memakai `viewBox="0 0 600 250"`; maskot sampul memakai `viewBox="0 0 520 300"`. ID sprite ikon kotak unik: `ic-bay`, `ic-kon`, `ic-con`, `ic-ing`, `ic-awas`, `ic-coba`.
+- Setiap bab materi biasa berisi enam kotak warna, satu ilustrasi, satu rumus, empat langkah contoh dan pengecekan, tabel/contoh tambahan, dua soal mini, serta paragraf pendalaman. `cek_kepadatan.py`: 12 bab materi masing-masing 2.300–2.900 karakter; semua berstatus OK.
+- QA: PDF 18 halaman; satu halaman per bab; thumbnail seluruh halaman diperiksa pada dua lembar QA; ilustrasi diperiksa dalam satu galeri SVG; halaman materi diperbesar pada 100 dpi. Mesin render final: Chrome/Playwright.
 - Jenis ilustrasi digilir: keluarga bentuk, kisi ubin, kebun, pemotongan/pemindahan segitiga, diagonal belah ketupat, layang-layang, trapesium, perbandingan jenis segitiga, lintasan keliling, tinggi segitiga, dekomposisi bangun gabungan, dan konversi satuan.
 
 ## `build.py`
