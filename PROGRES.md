@@ -1,5 +1,5 @@
 # PROGRES Modul PDF Bergambar learv.online
-Format baris: | tanggal | mata pelajaran | materi (judul, jumlah halaman, daftar bab) | id | status |
+Format baris: | tanggal | mata pelajaran | materi (judul, jumlah halaman, daftar bab) | id buku | sumber | status di situs |
 
 ## Sudah dibuat — JANGAN DIULANG
 Matematika : aljabar · bilangan-bulat · pecahan-desimal · perbandingan · statistika-peluang ·
