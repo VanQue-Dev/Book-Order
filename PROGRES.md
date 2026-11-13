@@ -4,7 +4,7 @@ Format baris: | tanggal | mata pelajaran | materi (judul, jumlah halaman, daftar
 ## Sudah dibuat — JANGAN DIULANG
 Matematika : aljabar · bilangan-bulat · pecahan-desimal · perbandingan · statistika-peluang ·
              soal-cerita-logika · aritmetika-sosial · trigonometri · limit-turunan · himpunan ·
-             garis-sudut · segi-empat-segitiga · relasi-fungsi
+             garis-sudut · segi-empat-segitiga · relasi-fungsi · teorema-pythagoras
 Fisika     : gerak-gaya · listrik-dinamis · gelombang-optik
 Kimia      : struktur-atom · ikatan-kimia · reaksi-redoks
 Biologi    : keanekaragaman-hayati · fotosintesis · sistem-organ · genetika-evolusi
@@ -17,6 +17,7 @@ Lainnya    : sejarah-indonesia · english-grammar · mengelola-uang · literasi-
 |---|---|---|---|---|---|
 | 2026-11-12 | Matematika (Kelas VII–VIII) | Segi Empat dan Segitiga Itu Asyik! (18 hlm, 16 bab: pengenalan; persegi; persegi panjang; jajargenjang; belah ketupat; layang-layang; trapesium; jenis segitiga; keliling; luas segitiga; bangun gabungan; satuan; jebakan; ringkasan; latihan; peta) | segi-empat-segitiga | modul-segi-empat-segitiga/modul-sumber.md (+ build.py, page.html, render.py) | PDF, sumber, dan kode tersimpan di GitHub; belum diunggah ke learv.online |
 | 2026-11-13 | Matematika (Kelas VIII) | Relasi dan Fungsi Itu Jelas! (18 hlm, 16 bab: pasangan dan himpunan; perkalian Kartesius; pasangan berurutan; pengertian relasi; penyajian relasi; diagram panah; domain/kodomain/range; pengertian fungsi; uji fungsi; jenis pemetaan; notasi fungsi; penerapan; jebakan; ringkasan; latihan; peta) | relasi-fungsi | Paket_Sumber_Relasi_dan_Fungsi.zip (lampiran; folder GitHub belum terunggah) | PDF, sumber, dan kode selesai dibuat serta QA; folder belum dapat dipush karena konektor tidak menyediakan transfer berkas lokal; PDF tidak diunggah ke repository/learv.online |
+| 2026-11-14 | Matematika (Kelas VIII–IX) | Teorema Pythagoras Itu Masuk Akal! (18 hlm, 16 bab: segitiga siku-siku; uji segitiga; sisi miring; mencari kaki; tripel; jarak koordinat; tangga/tiang/ramp; diagonal persegi panjang/persegi; diagonal ruang balok/kubus; segitiga khusus; bukti luas; rute gabungan; jebakan; ringkasan; latihan; peta) | teorema-pythagoras | Paket_Teorema_Pythagoras.zip (folder modul lengkap + modul-sumber/teorema-pythagoras.md) | PDF dan sumber lengkap tersedia di paket ZIP; folder GitHub belum terunggah karena runtime tidak menyediakan transfer berkas lokal; belum diunggah ke learv.online |
 
 ## Sudah tercakup buku Aljabar — jangan dibuat ulang
 Bentuk aljabar dan operasinya, sifat operasi, pangkat dan bentuk akar, pecahan aljabar,
@@ -30,14 +31,15 @@ keliling, luas bangun tunggal dan gabungan, serta satuan. Pembahasan sudut tidak
 Catatan tambahan: modul `relasi-fungsi` mencakup relasi, perkalian Kartesius, pasangan berurutan,
 diagram panah, domain/kodomain/range, definisi dan uji fungsi, pola satu-satu/banyak-ke-satu/into/onto,
 notasi f(a), dan penerapan dasar. Fungsi linear/gradien, komposisi, serta invers tetap mengikuti buku Aljabar.
+Catatan tambahan: modul `teorema-pythagoras` mencakup segitiga siku-siku dan kebalikannya, tripel,
+jarak koordinat, tangga/tiang/ramp, diagonal bidang dan ruang, segitiga khusus, serta bukti luas.
 
 ## Antrean (Matematika dulu sampai habis)
-1. Teorema Pythagoras   ← berikutnya
-2. Lingkaran
-3. Bangun Ruang Sisi Datar
-4. Transformasi Geometri
-5. Kesebangunan dan Kekongruenan
-6. Bangun Ruang Sisi Lengkung
+1. Lingkaran   ← berikutnya
+2. Bangun Ruang Sisi Datar
+3. Transformasi Geometri
+4. Kesebangunan dan Kekongruenan
+5. Bangun Ruang Sisi Lengkung
 Sesudah Matematika habis: Fisika, Kimia, Biologi, Sejarah, Bahasa Inggris, Keterampilan Hidup
 (antrean topiknya disusun saat gilirannya tiba).
 
@@ -49,3 +51,5 @@ Sesudah Matematika habis: Fisika, Kimia, Biologi, Sejarah, Bahasa Inggris, Keter
 - Setiap modul baru wajib memiliki folder root `modul-<id>` berisi README.md, modul-sumber.md, build.py, page.html, render.py, dan PDF final jika upload biner GitHub didukung. PROGRES.md diperbarui dalam eksekusi yang sama.
 
 Catatan eksekusi 2026-11-13: PDF final dan paket sumber lengkap sudah disiapkan serta dilampirkan. Pembaruan PROGRES di repository dilakukan terpisah untuk mencegah modul dibuat ulang; folder `modul-relasi-fungsi` belum ada di GitHub karena jalur transfer file lokal ke konektor tidak tersedia pada runtime ini.
+
+Catatan eksekusi 2026-11-14: Teorema Pythagoras dibuat sebagai PDF A4 18 halaman (sampul, cara pakai/daftar isi, dan 16 bab). QA halaman, kepadatan, ilustrasi SVG, dan thumbnail visual lulus. Paket `Paket_Teorema_Pythagoras.zip` memuat folder modul lengkap, PDF root, sumber root, dan PROGRES ini. Folder modul belum diunggah ke GitHub karena runtime tidak menyediakan transfer file lokal; jangan buat ulang materi ini, lanjutkan antrean dari Lingkaran.
