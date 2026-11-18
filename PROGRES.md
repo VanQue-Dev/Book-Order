@@ -5,7 +5,7 @@ Format baris: | tanggal | mata pelajaran | materi (judul, jumlah halaman, daftar
 Matematika : aljabar · bilangan-bulat · pecahan-desimal · perbandingan · statistika-peluang ·
              soal-cerita-logika · aritmetika-sosial · trigonometri · limit-turunan · himpunan ·
              garis-sudut · segi-empat-segitiga · relasi-fungsi · teorema-pythagoras · lingkaran ·
-             bangun-ruang-sisi-datar · transformasi-geometri · kesebangunan-kekongruenan
+             bangun-ruang-sisi-datar · transformasi-geometri · kesebangunan-kekongruenan · bangun-ruang-sisi-lengkung
 Fisika     : gerak-gaya · listrik-dinamis · gelombang-optik
 Kimia      : struktur-atom · ikatan-kimia · reaksi-redoks
 Biologi    : keanekaragaman-hayati · fotosintesis · sistem-organ · genetika-evolusi
@@ -23,6 +23,7 @@ Lainnya    : sejarah-indonesia · english-grammar · mengelola-uang · literasi-
 | 2026-11-16 | Matematika (Kelas VIII–IX) | Bangun Ruang Sisi Datar Itu Menarik! (18 hlm, 16 bab: unsur bangun ruang; kubus; balok; prisma; limas; jaring-jaring; luas permukaan kubus/balok; luas permukaan prisma; luas permukaan limas; volume kubus/balok; volume prisma/limas; satuan volume/kapasitas; jebakan; ringkasan; latihan; peta) | bangun-ruang-sisi-datar | Paket_Bangun_Ruang_Sisi_Datar.zip (folder modul lengkap + modul-sumber/bangun-ruang-sisi-datar.md) | PDF, sumber, dan kode selesai serta QA lulus; folder belum diunggah ke GitHub karena runtime tidak menyediakan transfer berkas lokal; PDF tidak ada di repository/learv.online |
 | 2026-11-17 | Matematika (Kelas IX) | Transformasi Geometri Itu Seru! (18 hlm, 16 bab: bidang koordinat; translasi; translasi bangun; refleksi sumbu X/Y; refleksi diagonal; rotasi pusat O; rotasi pusat sebarang; dilatasi pusat O; dilatasi pusat sebarang; kongruen/sebangun; komposisi; pola ubin; jebakan; ringkasan; latihan; peta) | transformasi-geometri | Paket_Transformasi_Geometri.zip (folder modul lengkap + modul-sumber/transformasi-geometri.md) | PDF, sumber, dan kode selesai serta QA lulus; folder belum diunggah ke GitHub karena runtime tidak menyediakan transfer berkas lokal; PDF belum ada di repository/learv.online |
 | 2026-11-18 | Matematika (Kelas VIII–IX) | Kesebangunan dan Kekongruenan Itu Serasi! (18 hlm, 16 bab: pasangan bersesuaian; rasio dan skala; ciri sebangun; AA; SSS; SAS; faktor skala; perbandingan keliling; perbandingan luas; ciri kongruen; kriteria kongruensi SSS/SAS/ASA/AAS/RHS; pembuktian dan ukur tidak langsung; jebakan; ringkasan; latihan; peta) | kesebangunan-kekongruenan | Paket_Kesebangunan_dan_Kekongruenan.zip (folder modul lengkap + modul-sumber/kesebangunan-kekongruenan.md) | PDF, sumber, dan kode selesai serta QA lulus; folder belum diunggah ke GitHub karena runtime tidak menyediakan transfer berkas lokal; PDF belum ada di repository/learv.online |
+| 2026-11-19 | Matematika (Kelas IX) | Bangun Ruang Sisi Lengkung Itu Menawan! (18 hlm, 16 bab: pengenalan; unsur tabung; jaring-jaring tabung; luas permukaan tabung; volume tabung; unsur kerucut; jaring-jaring kerucut; luas selimut dan permukaan kerucut; volume kerucut; luas permukaan bola; volume bola; bangun gabungan; jebakan; ringkasan; latihan; peta) | bangun-ruang-sisi-lengkung | Paket_Bangun_Ruang_Sisi_Lengkung.zip (folder modul lengkap + modul-sumber/bangun-ruang-sisi-lengkung.md) | PDF dan sumber lengkap selesai; QA visual lulus; folder belum terunggah GitHub karena runtime tidak menyediakan transfer berkas lokal; PDF belum ada di repository; belum diunggah ke learv.online |
 
 ## Sudah tercakup buku Aljabar — jangan dibuat ulang
 Bentuk aljabar dan operasinya, sifat operasi, pangkat dan bentuk akar, pecahan aljabar,
@@ -48,10 +49,12 @@ Catatan tambahan: modul `transformasi-geometri` mencakup bidang koordinat, trans
 refleksi pada sumbu X/Y dan garis diagonal, rotasi berpusat di O maupun pusat sebarang,
 dilatasi berpusat di O maupun pusat sebarang, sifat isometri dan kesebangunan, komposisi transformasi,
 serta penerapan pola ubin. Jangan mengulang cakupan ini di modul berikutnya.
+Catatan tambahan: modul `kesebangunan-kekongruenan` mencakup korespondensi titik/sisi/sudut, rasio dan skala, kriteria kesebangunan AA/SSS/SAS, faktor skala, rasio keliling dan luas, ciri kongruen, kriteria SSS/SAS/ASA/AAS/RHS, pembuktian, serta pengukuran tidak langsung melalui bayangan. Transformasi geometri tetap mengikuti modul sebelumnya.
+Catatan tambahan: modul `bangun-ruang-sisi-lengkung` mencakup unsur, jaring-jaring, luas permukaan, dan volume tabung; unsur, jaring-jaring, luas selimut/permukaan, dan volume kerucut; luas permukaan dan volume bola; perbandingan volume tabung-kerucut; setengah bola; serta gabungan tabung dan setengah bola. Jangan mengulang cakupan tersebut.
 
 ## Antrean (Matematika dulu sampai habis)
-1. Bangun Ruang Sisi Lengkung   ← berikutnya
-Sesudah Matematika habis: Fisika, Kimia, Biologi, Sejarah, Bahasa Inggris, Keterampilan Hidup
+Matematika: selesai — seluruh antrean Matematika yang tercatat telah dibuat.
+Sesudah Matematika: Fisika, Kimia, Biologi, Sejarah, Bahasa Inggris, Keterampilan Hidup
 (antrean topiknya disusun saat gilirannya tiba).
 
 ## Arahan pengguna
@@ -73,3 +76,5 @@ Catatan eksekusi 2026-11-17: Transformasi Geometri dibuat sebagai PDF A4 18 hala
 
 
 Catatan eksekusi 2026-11-18: Kesebangunan dan Kekongruenan dibuat sebagai PDF A4 18 halaman (sampul, panduan/daftar isi, dan 16 bab). Chrome/Playwright berhasil merender. QA memverifikasi 18 halaman A4, 12 bab inti masing-masing 2.300–2.900 karakter dengan enam kotak, 12 ilustrasi SVG bab dengan variasi jenis dan minimal 12 elemen serta tiga label angka, pecahan bertumpuk, angka diagram sesuai materi, dan seluruh thumbnail 18 halaman diperiksa secara visual. Contoh dan 10 kunci latihan dihitung ulang. Paket `Paket_Kesebangunan_dan_Kekongruenan.zip` memuat folder `modul-kesebangunan-kekongruenan` lengkap (README.md, modul-sumber.md, build.py, page.html, render.py, preflight.py, qa.py, cek_kepadatan.py, HTML gabungan, thumbnail QA, dan PDF final), PDF root, serta sumber indeks `modul-sumber/kesebangunan-kekongruenan.md`. Runtime tidak menyediakan transfer berkas lokal ke GitHub, sehingga hanya PROGRES yang diperbarui terpisah; folder modul, sumber, kode, dan PDF belum ada di GitHub. Jangan buat ulang modul ini; antrean dilanjutkan dari Bangun Ruang Sisi Lengkung. Tidak ada unggahan ke learv.online.
+
+Catatan eksekusi 2026-11-19: Bangun Ruang Sisi Lengkung dibuat sebagai PDF A4 18 halaman dengan 16 bab. Chrome/Playwright berhasil merender. QA memverifikasi 18 halaman A4; 12 bab inti masing-masing 2.300–2.900 karakter dengan enam kotak dan satu ilustrasi; 12 SVG bab memiliki minimal 12 elemen dan tiga label angka, dengan jenis gambar bervariasi; pecahan bertumpuk; tidak ada aset eksternal atau emoji sebagai label kotak; dan seluruh thumbnail 18 halaman serta lembar kontak SVG diperiksa secara visual. Contoh dan 10 kunci latihan dihitung ulang. Paket `Paket_Bangun_Ruang_Sisi_Lengkung.zip` memuat folder modul lengkap, PDF final, sumber root `modul-sumber/bangun-ruang-sisi-lengkung.md`, dan PROGRES terbaru. Runtime tidak menyediakan jalur transfer berkas lokal ke konektor GitHub, sehingga hanya pembaruan PROGRES yang dapat dilakukan secara terpisah; folder modul, sumber, kode, dan PDF belum ada di GitHub. Jangan buat ulang modul ini. Matematika selesai; materi berikutnya disusun dari Fisika. Tidak ada unggahan ke learv.online.
